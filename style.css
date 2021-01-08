@@ -1,0 +1,169 @@
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+  background-color: #472836;
+}
+*{
+  box-sizing: border-box;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D7EBBA;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 97.2%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #472836;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+  border-left: 1px solid #472836;
+  border-right: 1px solid #472836;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #85a386;
+  color: #341D28;
+  font-weight: bold;
+}
+.row:after {
+  content:'';
+  display: table;
+  clear: both;
+}
+.definition{
+  font-family: fantasy;
+}
+header{
+  background-color:#E6C875;
+  padding: 30px;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #000000;
+  margin: 1.5 0px;
+  }
+h2 {
+  color:darkslateblue;
+  margin: 1.5 0px;
+}
+.left-column {
+  float: left;
+  width: 75%;
+}
+.right-column {
+  width: 25%;
+  float: right;
+  padding-left: 20px ;
+}
+.card {
+  padding: 20px;
+  background-color: #FEFFBE;
+  margin-top: 20px;
+}
+.card img{
+  width: 100%;
+}
+img{
+  margin-top: 4px;
+}
+.right-column .card img{
+margin-bottom: 10px;
+}
+#sans {
+  font-family:sans-serif;
+  font-size: 100px;
+  font-weight:lighter;
+  margin-left: 15px;
+}
+#script{
+  font-family:cursive;
+  margin-left: 300px;
+  font-size: 80px;
+}
+#logo{
+  width: 100px;
+  border-radius: 50%;
+}
+button {
+  background-color: plum;
+}
+button:hover{
+  border-style: groove;
+  background-color: rgb(255, 211, 255);
+}
+footer {
+  background-color: #C497AD;
+  padding: 10px;
+  text-align: center;
+  margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github {
+  background: #000000;
+  color: white;
+}
+.fa-linkedin {
+  background: #1491f0;
+  color: white;
+}
+
+@media(max-width:800px){
+  .left-column, .right-column{
+  width: 100%;
+  padding: 0px;
+  }
+}

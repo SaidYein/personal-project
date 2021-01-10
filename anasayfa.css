@@ -16,7 +16,10 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 97.2%;
+  border: 1px solid #071108;
+  border-radius: 4px;
 }
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -66,6 +69,7 @@ header.card{
 }
 #subheader {
   font-family: 'Caveat', cursive;
+  font-size: 20px;
 }
 p {
 font-family: 'Open Sans', sans-serif;
@@ -81,7 +85,10 @@ h2 {
   color:rgb(28, 24, 56);
   margin: 1.5 0px;
   font-family:'Bodoni Moda', serif;
-  font-weight: bolder;
+  font-weight: bolder; 
+}
+h5 {
+  text-indent: 2em;
 }
 .left-column {
   float: left;
@@ -123,18 +130,18 @@ margin-bottom: 10px;
   font-family:cursive;
   margin-left: 300px;
   margin-top: 20px;
-  font-size: 80px;
+  font-size: 60px;
 }
 #logo{
   width: 100px;
   border-radius: 50%;
 }
 button {
-  background-color: plum;
+  background-color: #659AB8;
 }
 button:hover{
   border-style: groove;
-  background-color: rgb(255, 211, 255);
+  background-color: #4D86A8;
 }
 footer {
   background-color: #649CB9;
@@ -146,6 +153,7 @@ footer {
   font-weight: lighter;
   
 }
+
 .fa {
   padding: 10px;
   font-size: 30px;

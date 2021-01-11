@@ -21,10 +21,7 @@
 
 <body>
 
-  <header>
-  </header>
-
-  <main class="row">
+  <header id="header">
     <div class="topnav">
 
       <a class="active" href="#home">Home</a>
@@ -35,21 +32,24 @@
     </div>
     <div class="entry">
       <h1>Fallen Angels of Pompei</h1>
-      <img style="min-width: 700px; overflow: hidden; "
-        src="http://www.italia.it/fileadmin/src/img/gallery/regioni/POI_regioni/POI_visitare_POMPEI/s100/Pompei_panoramica-100.jpg" alt="pompeii">
+      <img 
+        src="http://www.italia.it/fileadmin/src/img/gallery/regioni/POI_regioni/POI_visitare_POMPEI/s100/Pompei_panoramica-100.jpg"
+        alt="pompeii">
+      <p><em> "Pompei, the bustling city on the Gulf of Naples, passed away in a dramatic volcanic catastrophe rarely
+          experienced by mankind. For the scientists of modern times, however, the tragedy was a stroke of luck, because
+          both the life and death of the city were preserved in a snapshot, buried under a twelve-meter thick layer of
+          ash and pumice."</em></p>
 
-        <article class="summary">
-          <p style="max-height: 240px; overflow: hidden;"><em> "Pompei, the bustling city on the Gulf of Naples, passed away in a dramatic volcanic catastrophe rarely experienced by mankind. For the scientists of modern times, however, the tragedy was a stroke of luck, because both the life and death of the city were preserved in a snapshot, buried under a twelve-meter thick layer of ash and pumice."</em></p>
-        </article>
-
-    
     </div>
+  </header>
+
+  <main class="row">
 
     <div class="right_column">
       <section class="card">
         <article>
 
-          <h3>The Rise of Pompeii </h3>
+          <h3 id="top">The Rise of Pompeii </h3>
           <p>Pompeii was founded by the Greeks in the 6th century BC. A small rise on an old lava flow of Vesuvius
             offered a good view over the terrain and thus protection from hostile Etruscans. At the mouth of the river
             Sarno a small harbour was built where goods from the surrounding area were shipped. Wine and olive trees
@@ -134,18 +134,20 @@
             A lot has happened since the first observatory with its mechanical measuring instruments was built. Today
             Vesuvius is monitored with the most modern computer technology. Even a virtual walk through the resurrected
             Pompeii is possible.</p>
-            
-          <p><button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button></p>
-            
+
+          <p style="float: right;"><a href="#top">Sayfa Başına git</a>
+            <hr>
+          </p>
+
 
         </article>
       </section>
     </div>
 
     <div class="left_column">
-        <h2 class="card" style="text-align: center; padding:0px;">Gallery</h2>
+      <h2 class="card" style="text-align: center; padding:0px;">Gallery</h2>
       <div class="container">
-        
+
         <div class="image">
           <a href="https://mediaim.expedia.com/destination/1/8978ee250fb24d167a81c0990c882af3.jpg"><img
               src="https://mediaim.expedia.com/destination/1/8978ee250fb24d167a81c0990c882af3.jpg" /></a>
@@ -165,8 +167,8 @@
       </div><br><br>
 
       <h2 class="card" style="text-align:center; padding: 0px;">Sources</h2>
-      <article class="card">  
-        <ul>
+      <article class="card">
+        <ul id="list">
           <li><a href="https://en.wikipedia.org/wiki/Pompeii">Wikipedia </a></li>
           <li><a href="https://www.smithsonianmag.com/history/fall-rise-fall-pompeii-180955732/"> Life in Pompei </a>
           </li>

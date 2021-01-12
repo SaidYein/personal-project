@@ -55,6 +55,42 @@ body {
 .definition{
   font-family: fantasy;
 }
+
+/* Dark mode*/
+body.dark{
+  background-color: black;
+}
+.dark h1, .dark h2, .dark h3, .dark p, .dark span {
+  color: white;
+}
+.dark .card{
+  background-color: black;
+}
+.dark button{
+  background-color:black;
+  padding:6px;
+  font-size: 16px;
+  /* float: right;  */
+  /* margin-top: 6px; */
+  border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  position: absolute; top:8px; right:0px;
+  width: 100px;
+}
+/*-----------*/
+button{
+  background-color:black;
+  padding:6px;
+  font-size: 16px;
+  /* float: right;  */
+  /* margin-top: 6px; */
+  border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  position: absolute; top:8px; right:0px;
+  width: 100px;
+}
 header{
   background-image: url(https://knowyourarchetypes.com/wp-content/uploads/2020/06/wanderer-archetype-scaled.jpg);
   padding: 30px;

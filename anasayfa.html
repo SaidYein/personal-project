@@ -16,15 +16,17 @@
     <title>ROAD</title>
 </head>
 
-<body class="dark">
+<body id="body">
     <div class="topnav">
 
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a style="float: right; font-weight: bold;" href="./sign_up.html">Sign up</a>
-        <a style="float: right; font-weight: bold;" href="#about">Write for Us</a>
+        <button onclick="SwitchMode()" href="#about">Dark Mode</button>
+        <a style="position: absolute; top:0px; right:130px; font-weight: bold;" href="./sign_up.html">Sign up</a>
+        <a style="position: absolute; top:0px; right:230px;  font-weight: bold;" href="#about">Write for Us</a>
+        
     </div>
     <header class="card">
         <span id="script">...you are on the </span><span id="sans">ROAD</span><br>
@@ -34,7 +36,7 @@
     <main class="row">
         <section class="left-column">
             <article class="card">
-                <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 36px; color:black;">Latest Articles</h2><hr>
+                <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 36px;">Latest Articles</h2><hr>
                 <h2 style="text-indent: 1em">FALLING ANGELS OF POMPEI</h2>
                 <h5>Said Yein, Jan 7, 2021</h5>
                 <img src="../resim/fallen-angel.png" alt="">
@@ -52,7 +54,7 @@
                 <p class="definition">Feeling different? Well you are not alone!</p>
                 <p style="text-indent: 4em;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, eveniet numquam ea quidem libero,
                     consequatur reprehenderit iste ex non earum officiis enim? Accusantium obcaecati repellat eius illo
-                    deserunt earum atque! <a href="#"> ...Read more</a>
+                    deserunt earum atque! <a href="./article_2.html"> ...Read more</a>
                 </p>
             </article>
 
@@ -110,6 +112,13 @@
 
     <footer>
         <span>&copy;SaidYein |<b> Email:</b>hoppala@email.com | <b>Phone:</b> +44 689599013 |    Privacy Policy LegalTerms Credits | Weststraat 7, De bruinke, 7983 TA - Netherlands | For further information, plaese visit us <a href="#">www.ontherun.com</a></span>
-</body>
 
+<script>
+    function SwitchMode(){
+        document.getElementById('body').classList.toggle('dark')
+    }
+</script>
+
+</body>
+<!--Dark mode aktive etme-->
 </html>
